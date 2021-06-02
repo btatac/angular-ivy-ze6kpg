@@ -1,0 +1,35 @@
+:host{
+    margin:  2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block ;
+    padding: 10px;
+    color: black;
+    background-color: gainsboro;
+   
+}
+img {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: whitesmoke;
+    margin-right: 12em;
+    margin-left: 12em;
+    
+}
+
+strong {
+    margin-right: 7em;
+    padding: 5px 15px;
+    font-weight: 700;
+    margin-left: 7em;
+}
+
