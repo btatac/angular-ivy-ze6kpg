@@ -18,6 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { SwiperModule } from 'swiper/angular';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProdcutDetailComponent } from './prodcut-detail/prodcut-detail.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProdcutDetailComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
